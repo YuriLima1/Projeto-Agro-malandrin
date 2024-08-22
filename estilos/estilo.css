@@ -1,0 +1,137 @@
+/*configs gerais*/
+body{
+    background-color: #FAFFF5;
+}
+
+/* home config*/
+#home{
+    margin: 0 100px 0 150px;
+    margin-top: 50px;
+}
+
+#home #logo{
+    /* a logo que fica no home*/
+    margin: 0 0 40px 350px;
+}
+
+#apresentacao {
+    font-size: 1.19em;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#home #foto #imagem{
+    
+    border: #034F0A;
+    
+}
+
+
+/*header config*/
+
+#header{
+    background-color: #034F0A;
+    height: 115px;
+    width: 101.35%;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: flex;
+}
+ 
+/*terminar de configurar o comando apos criar as outras paginas*/
+
+#header #navbar a[href="index.php"]{
+    color: #FFF086;
+}
+
+#navbar #nav {
+   
+    margin-right: 45px;
+    margin-left: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-size: 0.9em;
+}
+   
+
+#header #logo{
+    width: 150x;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 3px;
+}
+ 
+#login{
+     font-size: 1.2em;
+     font-family: arial;
+     margin-top: 15px;
+   
+}
+ 
+#login:hover{
+     background-color: #04420A;
+}
+ 
+#header #login #link {
+     text-decoration: none;
+     color:#fff;
+}
+
+/*config navbar*/
+#navbar #nav:hover {
+    color: #FFF086;
+}
+   
+#header #navbar {
+    margin-top: 27px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 90px;
+    padding-right: 55px;
+    padding-left: 60px;
+    border-top: 2px solid #034F0A;
+    border-bottom: 2px solid #034F0A;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    height: 63px;
+}
+
+/*footer config*/
+footer {
+    background-color: #034F0A;
+    display: flex;
+    width: 101.35%;
+    height: 150px;
+}
+
+#foo #titulo {
+    font-size: 1.4em;
+    color: white;
+    
+}
+#foo #perguntas {
+    font-size: 0.8em;
+    margin-left: 150px;
+
+}
+#foo #links {
+    color: white;
+    font-size: 0.8em;
+}
+
+#foo #logo {
+    margin-top: -10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#linkfoo {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#linkfoo:hover {
+    color: #FFF086;
+    
+}
