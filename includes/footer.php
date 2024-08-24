@@ -1,33 +1,59 @@
 <body>
-    <footer id="foo"> <!--    -->
-        <div id="perguntas">
+    <footer> <!-- footer das paginas -->
+        <div id="perguntas"> <!-- sessão de ajuda -->
             <h1 id="titulo">Duvidas Frequentes</h1>
             <ul>
-                <a href="" id="linkfoo"> <li>Vocês vendem no site?        </li> </a>
+                <a href="" id="links"> <li>Vocês vendem no site?        </li> </a>
                 <br>
-                <a href="" id="linkfoo"> <li>Quais são nossos produtos?</li> </a>
+                <a href="" id="links"> <li>Quais são nossos produtos?</li> </a>
                 <br>
-                <a href="" id="linkfoo"> <li>Porque deveria nós avaliar?         </li> </a>
+                <a href="" id="links"> <li>Porque deveria nós avaliar?         </li> </a>
             </ul>
 
         </div>
 
-        <div id="logo">
+        <div id="logo"><!-- a logo que fica no footer -->
         <img src="multimidia/Logo_Foo.png" alt="logo da agro malandrin" >
         </div>
 
-        <div id="links">   
+        <div id="linksfora">   
             <h1 id="titulo">Contate-nos</h1>
             <table>
                 <tr>
-                    <td > <a href="https://www.facebook.com/agromalandrin/" target="_blank" id="linkfoo"> <li> FaceBook </li> </a> </td>
+                    <td > <a href="https://www.facebook.com/agromalandrin/" target="_blank" id="linkfoo"> <li id="facefoo"> FaceBook </li> </a> </td>
                     
-                    <td> <a href="https://www.instagram.com/agromalandrin/" target="_blank" id="linkfoo"> <li> Instagram </li> </a> </td>                    
+                   
+
+                    <td> <a href="https://www.instagram.com/agromalandrin/" target="_blank" id="linkfoo"> <li id="instfoo"> Instagram </li> </a> </td>                    
                 </tr>
                 <tr>
-                    <td> <a href="https://wa.me/551938431393"  target="_blank" id="linkfoo"> <li> Whatsapp </li> </a> </td>
+                    <td> <a href="https://wa.me/551938431393"  target="_blank" id="linkfoo"> <li id="whatfoo"> Whatsapp </li> </a> </td>
+                    
+                   
+                    
+                    <td>
+                    
+                       
 
-                    <td> <a href="">  <li id="linkfoo"> 2 </li> </a> </td>
+
+                            <button onclick="copiarTexto()" id="Emailbotum"> <li id="Emailfoo">Email</li></button>
+
+                            <script>
+                            function copiarTexto() {
+                                    var email = "Agromalandrin"; // Texto a ser copiado
+
+                                    // Tenta usar o método clipboard para copiar
+                                    navigator.clipboard.writeText(email)
+                                    .then(() => {
+                                        alert("Email copiado");
+                                    })
+                                    .catch(err => { 
+                                        alert("Erro encontrado, Tente novamente mais tarde");   
+                                    });
+                                }
+                            </script>
+                        
+                    </td>
                 </tr>
             </table>
         </div>

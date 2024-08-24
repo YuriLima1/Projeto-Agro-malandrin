@@ -3,7 +3,7 @@ include_once 'includes/header.php'
 ?>
 
 <header>
-<title>Home</title>
+<title>Agro Malandrin</title>
 </header>
 
 <main id="home">
@@ -24,7 +24,7 @@ include_once 'includes/header.php'
     </p>
 
     <div id="foto">
-        <img src="faixada_AG" alt="foto da frente da loja" id="imagem">
+        <img src="multimidia/faixada_AG.png" alt="foto da frente da loja" id="imagem">
     </div>
 </main>
 

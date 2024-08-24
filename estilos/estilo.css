@@ -20,29 +20,43 @@ body{
 }
 
 #home #foto #imagem{
-    
     border: #034F0A;
-    
 }
 
 
 /*header config*/
 
-#header{
+header{/*config geral do header*/
     background-color: #034F0A;
-    height: 115px;
+    height: 60px;
     width: 101.35%;
     margin-top: -10px;
     margin-left: -10px;
     display: flex;
 }
- 
-/*terminar de configurar o comando apos criar as outras paginas*/
 
-#header #navbar a[href="index.php"]{
-    color: #FFF086;
+header #logo{/*a logo que fica no header*/
+    margin-left: 10px;
+    margin-top: -30px;
 }
 
+/*butão de login*/
+#login{
+     font-size: 1.2em;
+     font-family: arial;
+     margin-top: 15px;
+   
+}
+ 
+header #login #link {
+    text-decoration: none;
+    color:#fff;
+}
+
+header #login #link:hover{
+    color: #FFF086;
+}
+/*config navbar*/
 #navbar #nav {
    
     margin-right: 45px;
@@ -52,41 +66,15 @@ body{
     font-family: arial;
     font-size: 0.9em;
 }
-   
-
-#header #logo{
-    width: 150x;
-    height: 100px;
-    margin-left: 70px;
-    margin-top: 3px;
-}
- 
-#login{
-     font-size: 1.2em;
-     font-family: arial;
-     margin-top: 15px;
-   
-}
- 
-#login:hover{
-     background-color: #04420A;
-}
- 
-#header #login #link {
-     text-decoration: none;
-     color:#fff;
-}
-
-/*config navbar*/
 #navbar #nav:hover {
     color: #FFF086;
 }
    
-#header #navbar {
+header #navbar {
     margin-top: 27px;
     display: flex;
     margin-right: 50px;
-    margin-left: 90px;
+    margin-left: 15px;
     padding-right: 55px;
     padding-left: 60px;
     border-top: 2px solid #034F0A;
@@ -100,38 +88,89 @@ body{
 footer {
     background-color: #034F0A;
     display: flex;
-    width: 101.35%;
-    height: 150px;
+    width: auto;
+    height: 170px;
+    margin-bottom: -8px;
 }
 
-#foo #titulo {
+footer #titulo {
     font-size: 1.4em;
     color: white;
     
 }
-#foo #perguntas {
-    font-size: 0.8em;
-    margin-left: 150px;
 
+/*editando links para seção de ajuda*/
+footer #perguntas {
+    margin-left: 150px;
 }
-#foo #links {
+
+footer #links {
     color: white;
     font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
-#foo #logo {
+footer #links:hover {
+    color: #FFF086;
+}
+
+/*logo do footer*/
+footer #logo {
     margin-top: -10px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#linkfoo {
+/*editando os links externos*/
+#linksfora #linkfoo {
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
-#linkfoo:hover {
+#linksfora #linkfoo:hover, footer #linksfora #Emailbotum:hover {
     color: #FFF086;
+}
+footer #linksfora #Emailbotum {
+    background: none;
+    border: none; 
+    text-decoration: none; 
+    font-size: 1em; 
+    color: white;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+/* ageitando a grade de links esternos*/
+footer #linksfora #linkfoo #facefoo, 
+footer #linksfora #linkfoo #instfoo, 
+footer #linksfora #linkfoo #whatfoo, 
+footer #linksfora #Emailfoo{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+/* adicionando cada um dos icones de outras paginas no footer */
+
+footer #linksfora #linkfoo #facefoo{
+    list-style-image: url('../multimidia/icones/facebook.png');
+
+}
+
+footer #linksfora #linkfoo #instfoo{
+    list-style-image: url('../multimidia/icones/instagram.png');
+}
+
+footer #linksfora #linkfoo #whatfoo{
+    list-style-image: url('../multimidia/icones/whatsapp.png');
+}
+
+footer #linksfora #Emailfoo {
+    list-style-image: url('../multimidia/icones/gmail.png');
     
 }
+
+
+

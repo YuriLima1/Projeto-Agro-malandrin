@@ -6,12 +6,15 @@
     
     <!-- conectando com o css-->
     <link href="estilos/estilo.css" rel="stylesheet" type="text/css">
+    
+    <!-- colocando o icone da pagina-->
+    <link rel="shortcut icon" href="multimidia/icones/planta.png" type="image/x-icon">
 
 </head>
  
 <body>
-    <header id="header"><!-- criando o header -->
-        <a href="index.php"> <img src="multimidia/logo_head.png" alt="logo Agro malandrin" id="logo"> </a>
+    <header><!-- criando o header -->
+         <div><img src="multimidia/logo_Head.png" alt="logo Agro malandrin" id="logo"> </div>
 
         <!-- criando o nav -->
         <div id="navbar" >
@@ -24,7 +27,7 @@
         </div>
     
         <!-- colocando o botão para poder logar -->
-       <div id="login"> <a href="" id="link"> <p>Ola, logue ou <br>cadastre-se</p> </a> </div>
+       <div id="login"> <a href="login.php" id="link"> <p>Ola, logue ou <br>cadastre-se</p> </a> </div>
     </header>
    
  
