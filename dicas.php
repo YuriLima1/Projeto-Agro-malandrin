@@ -1,80 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt=br">
+<?php
+    include_once 'includes/header.php'
+?>
+<header>
+<title>Dicas - Agro Malandrin</title>
+</header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicas</title>
-    
-    <style>
-        th {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
+<body id="dicas">
+    <div id="conteiner">
+        <table cellspacing="0" id="tableDicas1">
+            <th id="titulo">Dicas Para Seu Pet</th>
 
-        }
+            <tr>
+                <td >
+                    <ul>
+                        <li><strong>Alimentação Balanceada:</strong> Escolha alimentos de qualidade e adequados à espécie e porte do seu pet;</li><br>
 
-        ul {
-            font-family: Arial, Helvetica, sans-serif;
+                        <li><strong>Atividade Física Regular:</strong> Proporcione exercícios diários para manter a saúde física e mental do animal;</li><br>
 
-        }
+                        <li><strong>Visitas Regulares ao Veterinário:</strong> Mantenha check-ups periódicos para prevenir e detectar problemas de saúde precocemente;</li><br>
 
-        .table-round-corner {
-            border-color: #F6A507;
-            color: black;
-            border-radius: 8px;
-            letter-spacing: .03em;
-            margin-top: 18%;
-            margin-left: 28%;
-            margin-right: 28%;
-            border-collapse: separate;
-            border-style: solid;
-            border-width: 2px;
-        }
+                        <li><strong>Higiene e Cuidados:</strong> Cuide da limpeza do ambiente e do pet, incluindo banhos, escovação e limpeza dos dentes;</li><br>
 
-        table td {
-            color: #000;
-            background-color: white;
-            padding: 5px;
-            border: 3px solid #F6A507;
-            border-radius: 3px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-        }
+                        <li><strong>Atenção Emocional:</strong> Dedique tempo para interação e carinho, pois isso é essencial para o bem-estar emocional do seu pet.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <table cellspacing="0" id="tableDicas2">
+            <th id="titulo">Dicas Para Seu Pet</th>
 
-        table th {
-            color: #000;
-            background-color: rgb(204, 13, 13);
-            text-align: center;
-            padding: 5px;
-            font-size: 17px;
-            border-radius: 6px;
-        }
-    </style>
+            <tr>
+                <td >
+                    <ul>
+                        <li><strong >Alimentação Balanceada:</strong> Escolha alimentos de qualidade e adequados à espécie e porte do seu pet;</li><br>
 
-</head>
+                        <li><strong>Atividade Física Regular:</strong> Proporcione exercícios diários para manter a saúde física e mental do animal;</li><br>
 
-<body>
-    <table class="table-round-corner" cellspacing="0">
-        <th><strong>Dicas Para Seu Pet</strong></th>
-        <tr>
-            <td>
-                <ul>
-                    <li><strong>Alimentação Balanceada:</strong> Escolha alimentos de qualidade e adequados à
-                        espécie e porte do seu pet;</li><br>
-                    <li><strong>Atividade Física Regular:</strong> Proporcione exercícios diários para manter a
-                        saúde física e mental do animal;</li><br>
-                    <li><strong>Visitas Regulares ao Veterinário:</strong> Mantenha check-ups periódicos para
-                        prevenir e detectar problemas de saúde precocemente;</li><br>
-                    <li><strong>Higiene e Cuidados:</strong> Cuide da limpeza do ambiente e do pet, incluindo
-                        banhos, escovação e limpeza dos dentes;</li><br>
-                    <li><strong>Atenção Emocional:</strong> Dedique tempo para interação e carinho, pois isso é
-                        essencial para o bem-estar emocional do seu pet.</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+                        <li><strong>Visitas Regulares ao Veterinário:</strong> Mantenha check-ups periódicos para prevenir e detectar problemas de saúde precocemente;</li><br>
 
+                        <li><strong>Higiene e Cuidados:</strong> Cuide da limpeza do ambiente e do pet, incluindo banhos, escovação e limpeza dos dentes;</li><br>
+
+                        <li><strong>Atenção Emocional:</strong> Dedique tempo para interação e carinho, pois isso é essencial para o bem-estar emocional do seu pet.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
-</html>
+<?php
+include_once 'includes/footer.php';
+?>
+

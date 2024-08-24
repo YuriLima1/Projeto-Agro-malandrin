@@ -5,7 +5,7 @@ body{
 
 /* home config*/
 #home{
-    margin: 0 100px 0 150px;
+    margin: 0 160px 0 160px;
     margin-top: 50px;
 }
 
@@ -17,12 +17,84 @@ body{
 #apresentacao {
     font-size: 1.19em;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin-bottom: 100px;
+    text-align: justify;
 }
 
-#home #foto #imagem{
-    border: #034F0A;
+#home #foto1{
+    display: flex;
+}
+#home #foto1 #foto{
+    border: solid 1px #034F0A;
+    padding: 15px 15px 10px 15px;
+    border-radius: 8px;
 }
 
+#home #foto1 #foto p{
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home #foto1 #faixada{
+    height: 300px;
+    width: 450px;
+    border-radius: 8px;
+}
+#home #foto1 #texto{
+    margin-left: 60px;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#home #foto1 #texto p:hover{
+    color: #034F0A;
+    font-size: 105%;
+}
+
+/*config dicas*/
+
+#dicas #tableDicas1, #dicas #tableDicas2{
+    border:solid 2px #F6A507 ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px ;
+    width: 450px;
+}
+#dicas #tableDicas1{
+    margin-left: 190px;
+    margin-right: 75px;
+}
+
+#dicas #conteiner td {
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: .03em;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#dicas #conteiner #titulo {
+    border: 2px solid #F6A507;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dicas #conteiner{
+    display: flex;
+}
+
+#dicas #conteiner strong {
+    font-size: 110%;
+}
 
 /*header config*/
 
@@ -42,9 +114,9 @@ header #logo{/*a logo que fica no header*/
 
 /*butão de login*/
 #login{
-     font-size: 1.2em;
-     font-family: arial;
-     margin-top: 15px;
+    font-size: 1.2em;
+    font-family: arial;
+    margin-top: 15px;
    
 }
  
@@ -56,6 +128,7 @@ header #login #link {
 header #login #link:hover{
     color: #FFF086;
 }
+
 /*config navbar*/
 #navbar #nav {
    
@@ -82,7 +155,9 @@ header #navbar {
     border-right: 2px solid #ffffff;
     border-left: 2px solid #ffffff;
     height: 63px;
+   
 }
+
 
 /*footer config*/
 footer {
@@ -117,7 +192,7 @@ footer #links:hover {
 
 /*logo do footer*/
 footer #logo {
-    margin-top: -10px;
+  
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -133,7 +208,9 @@ footer #logo {
 #linksfora #linkfoo:hover, footer #linksfora #Emailbotum:hover {
     color: #FFF086;
 }
+
 footer #linksfora #Emailbotum {
+    font-family: Arial, Helvetica, sans-serif;
     background: none;
     border: none; 
     text-decoration: none; 
@@ -142,6 +219,7 @@ footer #linksfora #Emailbotum {
     margin-left: -5px;
     cursor: pointer;
 }
+
 
 /* ageitando a grade de links esternos*/
 footer #linksfora #linkfoo #facefoo, 

@@ -23,9 +23,15 @@ include_once 'includes/header.php'
         como marca registrada no nome da agro. 
     </p>
 
-    <div id="foto">
-        <img src="multimidia/faixada_AG.png" alt="foto da frente da loja" id="imagem">
+    <div id="foto1">
+        <div id="foto"> <img src="multimidia/faixada_AG.png" alt="foto da frente da loja" id="faixada">
+        <p>Rua Joaquim de Souza Dias - São Vincente, Itapira-SP</p></div>
+        
+        <div id="texto"><p>Nossa agro ja está <br> em funcionamento <br> a 12 anos! visite-nos!</p></div>
     </div>
+
+
+
 </main>
 
 <?php

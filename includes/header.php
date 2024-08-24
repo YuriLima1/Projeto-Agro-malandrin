@@ -21,14 +21,15 @@
     
             <!-- links do nav -->
             <a href="index.php" id="nav"> <h1>Home</h1> </a>
-            <a href="dicas.php" id="nav"> <h1>Dicas</h1> </a>  
             <a href="Produtos.php" id="nav"> <h1>Produtos</h1> </a>  
- 
+            <a href="dicas.php" id="nav"> <h1>Dicas</h1> </a>  
+
         </div>
     
         <!-- colocando o botão para poder logar -->
        <div id="login"> <a href="login.php" id="link"> <p>Ola, logue ou <br>cadastre-se</p> </a> </div>
+
+      
     </header>
-   
- 
+    
    
