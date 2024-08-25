@@ -27,10 +27,24 @@ include_once 'includes/header.php'
         <div id="foto"> <img src="multimidia/faixada_AG.png" alt="foto da frente da loja" id="faixada">
         <p>Rua Joaquim de Souza Dias - São Vincente, Itapira-SP</p></div>
         
-        <div id="texto"><p>Nossa agro ja está <br> em funcionamento <br> a 12 anos! visite-nos!</p></div>
+        <div id="texto"><p>Nossa agro ja está <br> em funcionamento a <br>12 anos! visite-nos!</p></div>
     </div>
 
+    <div id="foto2">
 
+        <div id="texto"><p>clique  na imagem ao <br>  lado para localizar <br> a nossa agro no <br> Google Map</p></div>
+
+        <a href="https://www.google.com/maps/place/AGRO+MALANDRIN+DE+ITAPIRA+LTDA/@-22.447972,-46.8297805,17z/data=!4m14!1m7!3m6!1s0x94c8fdf2152fa27b:0xee9600c02ad02357!2sAGRO+MALANDRIN+DE+ITAPIRA+LTDA!8m2!3d-22.447977!4d-46.8272056!16s%2Fg%2F11frfsxnmw!3m5!1s0x94c8fdf2152fa27b:0xee9600c02ad02357!8m2!3d-22.447977!4d-46.8272056!16s%2Fg%2F11frfsxnmw?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D" id="linkMaps">
+            <table id="maps">
+                <th id="titulo"><strong id="G1">G</strong><strong id="O1">o</strong><strong id="O2">o</strong><strong id="G2">g</strong><strong id="L">l</strong><strong id="E">e</strong> Maps</th>
+                <tr>
+                    <td>
+                        <div id="espacamento"><img src="multimidia/maps.png" alt="foto do google maps" id="imagem"></div>
+                    </td>
+                </tr>
+            </table>
+        </a>    
+    </div>
 
 </main>
 

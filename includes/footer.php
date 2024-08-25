@@ -32,7 +32,7 @@
 
                         <script>
                         function copiarTexto() {
-                                var email = "Agromalandrin"; // Texto a ser copiado
+                                var email = "agromalandrin@hotmail.com"; // Texto a ser copiado
                                 // Tenta usar o método clipboard para copiar
                                 navigator.clipboard.writeText(email)
                                 .then(() => {

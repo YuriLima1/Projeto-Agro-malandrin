@@ -12,7 +12,7 @@
 
 </head>
  
-<body>
+<body id="asd">
     <header><!-- criando o header -->
          <div><img src="multimidia/logo_Head.png" alt="logo Agro malandrin" id="logo"> </div>
 
@@ -32,4 +32,4 @@
       
     </header>
     
-   
+</body>
