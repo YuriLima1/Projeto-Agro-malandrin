@@ -5,7 +5,8 @@ body{
 
 /* home config*/
 #home{
-    margin: 0 180px 0 180px;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 50px;
 }
 
@@ -33,7 +34,6 @@ body{
 
 #home #foto1 #foto p{
     margin-top: 0px;
-    margin-left: 45px;
     margin-bottom: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -91,9 +91,10 @@ body{
     border-radius: 5px;
     font-size: 2.2em;
     padding: 13px;
-    color: #ffffff;
     padding: -1px;
     text-shadow: 2px 2px 4px #000000;
+    color: #fff;
+    background-color: #34A853;
 }
 
 #home #foto2 #maps #titulo:hover{
@@ -125,6 +126,7 @@ body{
     padding: 13px;
     background-color: #05660e;
     padding: -1px;
+  
     text-shadow: 2px 2px 4px #272727;
 }
 #home #avaliacao #tabel #titulo #link{
@@ -148,22 +150,22 @@ body{
     color: white;
 }
 
-#home #conteiner #titulo   .google-logo .g {
+#home #foto2 #conteiner #titulo  #g {
     color: #4285F4; /* Azul */
 }
-#home #conteiner #titulo   .google-logo .o1 {
+#home #foto2 #conteiner #titulo  #o1 {
     color: #EA4335; /* Vermelho */
 }
-#home #conteiner #titulo   .google-logo .o2 {
+#home #foto2 #conteiner #titulo  #o2 {
     color: #FBBC05; /* Amarelo */
 }
-#home #conteiner #titulo   .google-logo .g2 {
+#home #foto2 #conteiner #titulo #g2 {
     color: #4285F4; /* Azul */
 }
-#home #conteiner #titulo   .google-logo .l {
+#home #foto2 #conteiner #titulo  #l {
     color: #34A853; /* Verde */
 }
-#home #conteiner #titulo   .google-logo .e {
+#home #foto2 #conteiner #titulo  #e {
     color: #EA4335; /* Vermelho */
 }
 
@@ -201,6 +203,8 @@ body{
     letter-spacing: .03em;
     font-size: 14px;
     text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #dicas #conteiner #titulo {
@@ -218,6 +222,8 @@ body{
 
 #dicas #conteiner{
     display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #dicas #conteiner strong {
@@ -276,6 +282,7 @@ body{
     margin-right: 5%;
     margin-top: 2%;
 }
+
 #cadastro button{
     background-color: #ffffff;
     border: 1px solid #F6A507;
@@ -301,10 +308,10 @@ body{
     border-radius: 50px;
     width: 40%;
     height: 25px;
-}
-#cadastro #logue a{
-    text-decoration: none;
     text-align: center;
+}
+#cadastro #logue #link{
+    text-decoration: none;
 }
      
 

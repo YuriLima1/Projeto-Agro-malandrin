@@ -41,8 +41,7 @@
 
                         <li><strong>Manejo Integrado de Pragas (MIP):</strong> Combine métodos biológicos, físicos e químicos para o controle de pragas, minimizando o uso de pesticidas. Use insetos benéficos, plantas repelentes e armadilhas para manter o equilíbrio ecológico e proteger as culturas.
                         </li><br>
-
-                        <li>Monitoramento Contínuo: Use ferramentas tecnológicas para monitorar as condições das culturas, como sensores de solo e clima. A análise de dados em tempo real permite ajustar práticas agrícolas conforme necessário, garantindo a saúde das plantas e a eficiência da produção.</li>
+                        <li><Strong>Monitoramento Contínuo:</Strong> Use ferramentas tecnológicas para monitorar as condições das culturas, como sensores de solo e clima. A análise de dados em tempo real permite ajustar práticas agrícolas conforme necessário, garantindo a saúde das plantas e a eficiência da produção.</li>
                     </ul>
                 </td>
             </tr>

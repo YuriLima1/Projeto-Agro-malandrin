@@ -36,16 +36,15 @@ include_once 'includes/header.php'
 
         <a href="https://www.google.com/maps/place/AGRO+MALANDRIN+DE+ITAPIRA+LTDA/@-22.447972,-46.8297805,17z/data=!4m14!1m7!3m6!1s0x94c8fdf2152fa27b:0xee9600c02ad02357!2sAGRO+MALANDRIN+DE+ITAPIRA+LTDA!8m2!3d-22.447977!4d-46.8272056!16s%2Fg%2F11frfsxnmw!3m5!1s0x94c8fdf2152fa27b:0xee9600c02ad02357!8m2!3d-22.447977!4d-46.8272056!16s%2Fg%2F11frfsxnmw?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D" id="linkMaps">
             <table id="maps">
-                <th id="titulo">
-                    <div class="google-logo">
-                        <span class="g">G</span>
-                        <span class="o1">o</span>
-                        <span class="o2">o</span>
-                        <span class="g2">g</span>
-                        <span class="l">l</span>
-                        <span class="e">e</span>
-                    </div>
-                    </th>
+                <th id="titulo">                    
+                    <Strong id="g">G</Strong>
+                    <Strong id="o1">o</Strong>
+                    <Strong id="o2">o</Strong>
+                    <Strong id="g2">g</Strong>
+                    <Strong id="l">l</Strong>
+                    <Strong id="e">e<Strong>
+                    maps
+                </th>
                 <tr>
                     <td>
                         <div id="espacamento"><img src="multimidia/maps.png" alt="foto do google maps" id="imagem"></div>

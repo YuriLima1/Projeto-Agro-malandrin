@@ -38,6 +38,7 @@ include_once 'includes/header.php'
     
     </div>
         
-    <div id="logue"><a href="" id="link1">Já tem uma conta? Cadastre-se!</a></div>
+    <div id="logue"><a href="login.php" id="link">Já tem uma conta? Cadastre-se!</a></div>
 </div>
+
 
