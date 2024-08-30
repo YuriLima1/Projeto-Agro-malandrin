@@ -1,5 +1,6 @@
 
     <footer> <!-- footer das paginas -->
+  
         <div id="perguntas"> <!-- sessão de ajuda -->
             <h1 id="titulo">Duvidas Frequentes</h1>
             <ul>
@@ -13,7 +14,7 @@
         </div>
 
         <div id="logo"><!-- a logo que fica no footer -->
-        <img src="multimidia/Logo_Foo.png" alt="logo da agro malandrin" >
+        <img src="multimidia/Logo_Foo.png" alt="logo da agro malandrin"  >
         </div>
 
         <div id="linksfora">  <!-- os links de fora (para outros sites) --> 
@@ -47,6 +48,7 @@
                 </tr>
             </table>
         </div>
+   
     </footer>
 </body>
 </html>

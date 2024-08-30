@@ -315,20 +315,17 @@ body{
 
 #bodylogin {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 97vh;
-    margin: 0;
 }
 
 #bodylogin #tableLogin {
     border: solid 2px #F6A507;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 25%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
     width: 400px;
+    background-color: white;
 }
 
 #bodylogin #conteiner #titulo {
@@ -380,8 +377,8 @@ body{
 #bodylogin #conteiner button {
     padding: 5px 10px;
     margin: 15px 5%;
-    background-color: #FCDCB7;
-    border: 2px solid #F6A507;
+    background-color: #ffffff;
+    border: 1px solid #F6A507;
     border-radius: 4px;
     color: #000;
     font-size: 0.9em;
@@ -389,7 +386,8 @@ body{
 }
 
 #bodylogin #conteiner button:hover {
-    background-color: #F6A507;
+    background-color: #FCDCB7;
+    border: 2px solid #F6A507;
 }
 
 #bodylogin #conteiner strong {
@@ -469,27 +467,29 @@ header #navbar {
 footer {
     background-color: #034F0A;
     display: flex;
-    width: auto;
-    height: 170px;
+    width:101.35%;;
+    margin-left: -0.5%;
+    height: 3%;
     margin-bottom: -8px;
+    justify-content: space-evenly;
 }
+ 
 
 footer #titulo {
     font-size: 1.4em;
     color: white;
-    
 }
-
+ 
 /*editando links para seção de ajuda*/
-footer #perguntas {
-    margin-left: 150px;
-}
+
 
 footer #links {
     color: white;
     font-size: 0.8em;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    
+    
 }
 
 footer #links:hover {
@@ -497,18 +497,19 @@ footer #links:hover {
 }
 
 /*logo do footer*/
-footer #logo {
-  
-    margin-left: 150px;
-    margin-right: 150px;
+footer #logo, #linksfora, #perguntas {
+    flex-grow: 1;
+
 }
 
 /*editando os links externos*/
+
 #linksfora #linkfoo {
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    
 }
 
 #linksfora #linkfoo:hover, footer #linksfora #Emailbotum:hover {
@@ -524,6 +525,7 @@ footer #linksfora #Emailbotum {
     color: white;
     margin-left: -5px;
     cursor: pointer;
+    
 }
 
 

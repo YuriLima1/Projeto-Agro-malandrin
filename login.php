@@ -21,9 +21,18 @@ include_once 'includes/header.php'
                             <a href="#"><strong>Esqueceu a senha?</strong></a>
                             <button type="submit">Enviar</button>
                         </div>
+                        <div id="cadastre"><a href="cadastro.php" id="link">Não tem uma conta? Cadastre-se!</a></div>
                     </form>
                 </td>
             </tr>
+            
         </table>
+        
     </div>
+
+    
 <div>
+
+<?php
+include_once 'includes/footer.php'
+?>
