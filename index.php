@@ -36,7 +36,16 @@ include_once 'includes/header.php'
 
         <a href="https://www.google.com/maps/place/AGRO+MALANDRIN+DE+ITAPIRA+LTDA/@-22.447972,-46.8297805,17z/data=!4m14!1m7!3m6!1s0x94c8fdf2152fa27b:0xee9600c02ad02357!2sAGRO+MALANDRIN+DE+ITAPIRA+LTDA!8m2!3d-22.447977!4d-46.8272056!16s%2Fg%2F11frfsxnmw!3m5!1s0x94c8fdf2152fa27b:0xee9600c02ad02357!8m2!3d-22.447977!4d-46.8272056!16s%2Fg%2F11frfsxnmw?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D" id="linkMaps">
             <table id="maps">
-                <th id="titulo"><strong id="G1">G</strong><strong id="O1">o</strong><strong id="O2">o</strong><strong id="G2">g</strong><strong id="L">l</strong><strong id="E">e</strong> Maps</th>
+                <th id="titulo">
+                    <div class="google-logo">
+                        <span class="g">G</span>
+                        <span class="o1">o</span>
+                        <span class="o2">o</span>
+                        <span class="g2">g</span>
+                        <span class="l">l</span>
+                        <span class="e">e</span>
+                    </div>
+                    </th>
                 <tr>
                     <td>
                         <div id="espacamento"><img src="multimidia/maps.png" alt="foto do google maps" id="imagem"></div>
@@ -46,6 +55,22 @@ include_once 'includes/header.php'
         </a>    
     </div>
 
+    <div id="avaliacao">
+        <table id="tabel">
+            <th id="titulo"> <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TCtKK67Iyy03YLRSNaiwNEm2SEtJMzI0NUpLNDJPsjKoSE21NDMwSDYwSkwxMDI2NffiS0wvylfITcxJzEspyswDAObcFWM&q=agro+malandrin&rlz=1C1GCEA_enBR1115BR1115&oq=agro+ma&gs_lcrp=EgZjaHJvbWUqEAgCEC4YrwEYxwEYgAQYjgUyBggAEEUYOTIGCAEQRRg7MhAIAhAuGK8BGMcBGIAEGI4FMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINzI4N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x94c8fdf2152fa27b:0xee9600c02ad023divid="link"> NOS AVALIE AQUI!!</a> </th>
+            
+            <tr>
+                <td>
+                    <p id="texto"> Prezado usuário, após clicar no link acima, você <br> 
+                    será direcionado para as avaliações dos nossos <br>
+                    serviços da nossa página no Google, nos ajude <br>
+                    com o feedback para conseguirmos melhorar  a <br>
+                    sua experiência.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
 </main>
 
 <?php

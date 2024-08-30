@@ -91,7 +91,7 @@ body{
     border-radius: 5px;
     font-size: 2.2em;
     padding: 13px;
-    color: #095211;
+    color: #ffffff;
     padding: -1px;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -110,29 +110,79 @@ body{
 }
 
 
-/*editando as cores da palavra "GOOGLE" na segunda imagem*/
-#home #foto2 #maps #titulo #G1{
-    color: #043BFF;
+#home #avaliacao #tabel {
+    border: solid 2px #034F0A;
+    border-radius: 8px ;
 }
-#home #foto2 #maps #titulo #O1{
-    color: #FF0000;
+
+#home #avaliacao #tabel #titulo {
+    border: 2px solid #034F0A;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 13px;
+    background-color: #05660e;
+    padding: -1px;
+    text-shadow: 2px 2px 4px #272727;
 }
-#home #foto2 #maps #titulo #O2{
-    color: #FEE951;
+#home #avaliacao #tabel #titulo #link{
+    text-decoration: none;
+    color:#ffffff;
 }
-#home #foto2 #maps #titulo #G2{
-    color: #043BFF;
+#home #avaliacao #tabel #texto{
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: justify;
 }
-#home #foto2 #maps #titulo #L{
-    color: #49C582;
+#home #avaliacao {
+    margin-left: 80px;
+    margin-bottom: 50px;
 }
-#home #foto2 #maps #titulo #E{
-    color: #FF0000;
+#home #avaliacao a {
+    text-decoration: none;
+    color: white;
 }
+
+#home #conteiner #titulo   .google-logo .g {
+    color: #4285F4; /* Azul */
+}
+#home #conteiner #titulo   .google-logo .o1 {
+    color: #EA4335; /* Vermelho */
+}
+#home #conteiner #titulo   .google-logo .o2 {
+    color: #FBBC05; /* Amarelo */
+}
+#home #conteiner #titulo   .google-logo .g2 {
+    color: #4285F4; /* Azul */
+}
+#home #conteiner #titulo   .google-logo .l {
+    color: #34A853; /* Verde */
+}
+#home #conteiner #titulo   .google-logo .e {
+    color: #EA4335; /* Vermelho */
+}
+
+
+
+
+
+
 
 /*config dicas*/
 
-#dicas #tableDicas1, #dicas #tableDicas2{
+#dicas #tableDicas1{
+    border:solid 2px #F6A507 ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    width: 450px;
+}
+#dicas #tableDicas2{
     border:solid 2px #F6A507 ;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -140,6 +190,7 @@ body{
     width: 450px;
 }
 #dicas #tableDicas1{
+    height: 120px;
     margin-left: 190px;
     margin-right: 75px;
 }
@@ -163,6 +214,8 @@ body{
     border-radius: 6px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 #dicas #conteiner{
     display: flex;
 }
@@ -170,6 +223,184 @@ body{
 #dicas #conteiner strong {
     font-size: 110%;
 }
+
+
+
+
+
+
+
+
+/* cadastro config*/
+
+#cadastro h3{
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#cadastro #sobrenome{
+    width: -400px;
+}
+#cadastro #NSN{
+    display: flex;
+    align-items: flex-start; /* Alinha as labels no início do contêiner */
+    position: relative; /* Para possibilitar a sobreposição */
+    width: -400px;
+}
+ 
+#cadastro input{
+    border: 2px solid #F6A507;
+    border-radius: 5px;
+    width: 94%;
+    height: 30px;
+    margin-bottom: 1rem;
+    margin-left: 1%;
+    margin-right: 3.5%;
+}
+ 
+#cadastro #body{
+    border: 2px solid  #F6A507;
+    border-radius: 5px;
+    margin: 40px;
+    width: 32%;
+    height: 300px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color: white;
+}
+#cadastro #tagbut {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+#cadastro button{
+    background-color: #ffffff;
+    border: 1px solid #F6A507;
+    border-radius: 2px;
+}
+#cadastro button:hover{
+    background-color: #FCDCB7;
+    border: 2px solid #F6A507;
+    border-radius: 2px;
+    margin-top: -3px;
+}
+#cadastro #logue:hover{
+    background-color: #FCDCB7;
+    border: 2px solid #F6A507;
+    border-radius: 50px;
+}
+#cadastro #logue{    
+    background: #ffff;
+    font-size: 1rem;
+    padding-top: 5px;
+    margin-top: -2px;
+    border: 2px solid #F6A507;;
+    border-radius: 50px;
+    width: 40%;
+    height: 25px;
+}
+#cadastro #logue a{
+    text-decoration: none;
+    text-align: center;
+}
+     
+
+
+
+
+/* config login*/
+
+#bodylogin {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    margin: 0;
+}
+
+#bodylogin #tableLogin {
+    border: solid 2px #F6A507;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    width: 400px;
+}
+
+#bodylogin #conteiner #titulo {
+    border: 2px solid #F6A507;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: #FCDCB7;
+    text-align: center;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bodylogin #conteiner td {
+    padding: 5px;
+    letter-spacing: .03em;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#bodylogin #conteiner input[type="email"],
+#bodylogin #conteiner input[type="password"] {
+    width: 70%;
+    padding: 8px;
+    margin: 5px 12%;
+    margin-top: 20px;
+    margin-bottom: -50px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    
+}
+
+#bodylogin #conteiner .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#bodylogin #conteiner a {
+    text-decoration: none;
+    color: #0112B0;
+    font-size: 0.9em;
+    margin: 15px 5%;
+}
+
+#bodylogin #conteiner button {
+    padding: 5px 10px;
+    margin: 15px 5%;
+    background-color: #FCDCB7;
+    border: 2px solid #F6A507;
+    border-radius: 4px;
+    color: #000;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#bodylogin #conteiner button:hover {
+    background-color: #F6A507;
+}
+
+#bodylogin #conteiner strong {
+    font-size: 110%;
+}
+
+
+
+
+
+
 
 /*header config*/
 
@@ -179,6 +410,7 @@ header{/*config geral do header*/
     width: 101.35%;
     margin-top: -10px;
     margin-left: -10px;
+  
     display: flex;
 }
 
@@ -233,11 +465,6 @@ header #navbar {
    
 }
 
-#asd #linhazinha{
-    height: 15px;
-    background-color: #023a08;
-    margin-top: 300px;
-}
 /*footer config*/
 footer {
     background-color: #034F0A;

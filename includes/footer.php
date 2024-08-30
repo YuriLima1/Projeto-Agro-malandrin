@@ -1,4 +1,4 @@
-<body>
+
     <footer> <!-- footer das paginas -->
         <div id="perguntas"> <!-- sessão de ajuda -->
             <h1 id="titulo">Duvidas Frequentes</h1>
