@@ -8,7 +8,7 @@ CREATE Table dbAgro.Usuario(
 
 CREATE TABLE dbAgro.Produtos(
     idProduto int PRIMARY KEY auto_increment,
-    idFornecedor int PRIMARY KEY auto_increment,
+    idFornecedor int PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     descricao VARCHAR(100) NOT NULL,
     unidade int NOT NULL,
