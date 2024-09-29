@@ -5,9 +5,10 @@ include_once 'includes/header.php'
 <header>
 <title>Agro Malandrin</title>
 </header>
-
+    <marquee> visiti-nos</marquee>
 <main id="home">
     <img src="multimidia/Logo_Home.png" alt="logo da agro malandrin" id="logo">
+   
 
     <p id="apresentacao">Somos uma empresa com mais de 12 anos de atuação na cidade de Itapira no Interior de São Paulo, 
         Nosso ramo de atuação é a venda e distribuição de rações para diversos tipos de animais, como 
