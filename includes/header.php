@@ -5,30 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- conectando com o css-->
-    <link href="estilos/estilo.css" rel="stylesheet" type="text/css">
+    <link href="estilos/estilos.css" rel="stylesheet" type="text/css">
     
     <!-- colocando o icone da pagina-->
     <link rel="shortcut icon" href="multimidia/icones/planta.png" type="image/x-icon">
 
+    <script sr  c="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        #header #header-int{
+            background-color: #034F0A;
+        }
+        
+        #header img{
+            margin-top: -11%;
+            margin-bottom: -9.5%;
+            
+        }
+        
+        /*config navbar*/
+            #header #navbar {
+                margin-left: -11%;
+                
+            }
+            
+            #header #navbar #nav{
+                color: #fff;
+                
+            }  
+            
+            #itens-navbar{
+                border-top: 2px solid #034F0A;
+    border-bottom: 2px solid #034F0A;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+            }
+
+            #header #navbar #nav:hover{
+                color: #FFF086;
+            }  
+
+        /*butão de login*/
+            #header #login{
+                font-size: 1.2em;
+                font-family: arial;
+                margin-top: 15px;
+                margin-right: 8%;
+            }
+
+            #header #login #link {
+                text-decoration: none;
+                color:#fff;
+            }
+
+            #header #login #link:hover{
+                color: #FFF086;
+            }   
+
+    </style>
 </head>
  
-<body>
-    <header><!-- criando o header -->
-         <div><img src="multimidia/logo_Head.png" alt="logo Agro malandrin" id="logo"> </div>
+<body id="header">
+<!-- criando o header -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="header-int">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../multimidia/logo_Head.png" alt="logo Agro malandrin" id="logo"></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- criando o nav -->
-        <div id="navbar" >
-    
-            <!-- links do nav -->
-            <a href="index.php" id="nav"> <h1>Home</h1> </a>
-            <a href="Produtos.php" id="nav"> <h1>Produtos</h1> </a>  
-            <a href="dicas.php" id="nav"> <h1>Dicas</h1> </a>  
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
 
+                <!-- criando o nav -->
+                <div class="offcanvas-body" id="navbar">
+                    <ul class="navbar-nav justify-content-center  flex-grow-1 pe-3" id="itens-navbar">
+                    
+                        <!-- links do nav -->
+                        <li class="nav-item">
+                            <a href="index.php" id="nav" class="nav-link mx-lg-2"> <h1>Home</h1></a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="Produtos.php" id="nav" class="nav-link mx-lg-2"> <h1>Produtos</h1> </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="dicas.php" id="nav" class="nav-link mx-lg-2"> <h1>Dicas</h1> </a>
+                        </li>
+
+                    </ul>
+                
+                    
+                    <form class="d-flex justify-content-space-around" id="login">
+                        <!-- colocando o botão para poder logar -->
+                        <a href="login.php" id="link"> <p>Ola, logue ou <br>cadastre-se</p> </a> 
+                    </form>
+                    
+                </div>
+            </div>
         </div>
-    
-        <!-- colocando o botão para poder logar -->
-       <div id="login"> <a href="login.php" id="link"> <p>Ola, logue ou <br>cadastre-se</p> </a> </div>
+    </nav>
 
+
+
+
+
+   
       
     </header>
     

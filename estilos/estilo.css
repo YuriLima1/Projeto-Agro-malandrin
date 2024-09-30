@@ -237,86 +237,6 @@ body{
 
 
 
-/* cadastro config*/
-
-#cadastro h3{
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-#cadastro #sobrenome{
-    width: -400px;
-}
-#cadastro #NSN{
-    display: flex;
-    align-items: flex-start; /* Alinha as labels no início do contêiner */
-    position: relative; /* Para possibilitar a sobreposição */
-    width: -400px;
-}
- 
-#cadastro input{
-    border: 2px solid #F6A507;
-    border-radius: 5px;
-    width: 94%;
-    height: 30px;
-    margin-bottom: 1rem;
-    margin-left: 1%;
-    margin-right: 3.5%;
-}
- 
-#cadastro #body{
-    border: 2px solid  #F6A507;
-    border-radius: 5px;
-    margin: 40px;
-    width: 32%;
-    height: 300px;
-    padding-left: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    background-color: white;
-}
-#cadastro #tagbut {
-    display: flex;
-    justify-content:flex-end;
-    margin-right: 5%;
-    margin-top: 2%;
-}
-
-#cadastro button{
-    background-color: #ffffff;
-    border: 1px solid #F6A507;
-    border-radius: 2px;
-}
-#cadastro button:hover{
-    background-color: #FCDCB7;
-    border: 2px solid #F6A507;
-    border-radius: 2px;
-    margin-top: -3px;
-}
-#cadastro #logue:hover{
-    background-color: #FCDCB7;
-    border: 2px solid #F6A507;
-    border-radius: 50px;
-}
-#cadastro #logue{    
-    background: #ffff;
-    font-size: 1rem;
-    padding-top: 5px;
-    margin-top: -2px;
-    border: 2px solid #F6A507;;
-    border-radius: 50px;
-    width: 40%;
-    height: 25px;
-    text-align: center;
-}
-#cadastro #logue #link{
-    text-decoration: none;
-}
-     
-
-
-
 
 /* config login*/
 
@@ -409,39 +329,13 @@ body{
 
 /*header config*/
 
-header{/*config geral do header*/
-    background-color: #034F0A;
-    height: 60px;
-    width: 101.35%;
-    margin-top: -10px;
-    margin-left: -10px;
-  
-    display: flex;
-}
 
-header #logo{/*a logo que fica no header*/
-    margin-left: 10px;
-    margin-top: -30px;
-}
 
-/*butão de login*/
-#login{
-    font-size: 1.2em;
-    font-family: arial;
-    margin-top: 15px;
-   
-}
+
  
-header #login #link {
-    text-decoration: none;
-    color:#fff;
-}
 
-header #login #link:hover{
-    color: #FFF086;
-}
 
-/*config navbar*/
+
 #navbar #nav {
    
     margin-right: 45px;
@@ -450,9 +344,6 @@ header #login #link:hover{
     color: #fff;
     font-family: arial;
     font-size: 0.9em;
-}
-#navbar #nav:hover {
-    color: #FFF086;
 }
    
 header #navbar {
