@@ -13,13 +13,15 @@
     <script sr  c="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
+        
         #header #header-int{
             background-color: #034F0A;
         }
         
         #header img{
-            margin-top: -11%;
+            margin-top: -15%;
             margin-bottom: -9.5%;
+            margin-left: 20%;
             
         }
         
@@ -31,14 +33,22 @@
             
             #header #navbar #nav{
                 color: #fff;
-                
+                font-family: arial;
+               
             }  
             
+            #header #navbar a h1{
+                font-size: 1.9em;
+            }
+
             #itens-navbar{
+                
+                margin-right: 10%;
+                margin-left: 20%;
                 border-top: 2px solid #034F0A;
-    border-bottom: 2px solid #034F0A;
-    border-right: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
+                border-bottom: 2px solid #034F0A;
+                border-right: 2px solid #ffffff;
+                border-left: 2px solid #ffffff;
             }
 
             #header #navbar #nav:hover{
@@ -65,12 +75,17 @@
     </style>
 </head>
  
-<body id="header">
+<div id="header">
 <!-- criando o header -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="header-int">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <img src="../multimidia/logo_Head.png" alt="logo Agro malandrin" id="logo"></a>
+        
+        
+            <picture>
+                <source media="(min-width: 1000px)" srcset="../multimidia/logo_Head.png">
+                <img src="../multimidia/logo_Head_mob.png" alt="logo Agro malandrin" id="logo">
+            </picture>
+        
             
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -78,14 +93,11 @@
 
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
+                
 
                 <!-- criando o nav -->
                 <div class="offcanvas-body" id="navbar">
-                    <ul class="navbar-nav justify-content-center  flex-grow-1 pe-3" id="itens-navbar">
+                    <ul class="navbar-nav justify-content-evenly  flex-grow-1 pe-3" id="itens-navbar">
                     
                         <!-- links do nav -->
                         <li class="nav-item">
@@ -103,7 +115,7 @@
                     </ul>
                 
                     
-                    <form class="d-flex justify-content-space-around" id="login">
+                    <form class="d-flex justify-content-around" id="login">
                         <!-- colocando o botão para poder logar -->
                         <a href="login.php" id="link"> <p>Ola, logue ou <br>cadastre-se</p> </a> 
                     </form>
@@ -112,13 +124,13 @@
             </div>
         </div>
     </nav>
-
+</div>
 
 
 
 
    
       
-    </header>
+    
     
 
