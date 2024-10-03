@@ -15,10 +15,12 @@
     <style>
         
         #header #header-int{
+            /*cor do background*/
             background-color: #034F0A;
         }
         
         #header img{
+            /* editando a localização da logo da agro */
             margin-top: -15%;
             margin-bottom: -9.5%;
             margin-left: 20%;
@@ -26,25 +28,22 @@
         }
         
         /*config navbar*/
-            #header #navbar {
-                margin-left: -11%;
-                
-            }
             
             #header #navbar #nav{
+                /* definindo a cor e o tipo de fonte do texto dos links da navbar */
                 color: #fff;
                 font-family: arial;
-               
             }  
             
             #header #navbar a h1{
+                /* definindo o tamanho do texto dos links da navbar */
                 font-size: 1.9em;
             }
 
             #itens-navbar{
-                
-                margin-right: 10%;
-                margin-left: 20%;
+                /* editando o visual dos itens da navbar  */
+                margin-right: 8%;
+                margin-left: 9%;
                 border-top: 2px solid #034F0A;
                 border-bottom: 2px solid #034F0A;
                 border-right: 2px solid #ffffff;
@@ -52,11 +51,13 @@
             }
 
             #header #navbar #nav:hover{
+                /* colocando o brilhinho quando passa o mouse em cima */
                 color: #FFF086;
             }  
 
-        /*butão de login*/
+        
             #header #login{
+                /*editando o visual do butão de login*/
                 font-size: 1.2em;
                 font-family: arial;
                 margin-top: 15px;
@@ -64,11 +65,13 @@
             }
 
             #header #login #link {
-                text-decoration: none;
+                /* tirando a decoração do link */
+                text-decoration: none; 
                 color:#fff;
             }
 
             #header #login #link:hover{
+                /* colocando o brilhinho quando passa o mouse em cima */
                 color: #FFF086;
             }   
 
@@ -80,7 +83,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="header-int">
         <div class="container-fluid">
         
-        
+            <!-- controla se a pagina for menor troca pela imagen menor -->
             <picture>
                 <source media="(min-width: 1000px)" srcset="../multimidia/logo_Head.png">
                 <img src="../multimidia/logo_Head_mob.png" alt="logo Agro malandrin" id="logo">
@@ -93,8 +96,6 @@
 
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             
-                
-
                 <!-- criando o nav -->
                 <div class="offcanvas-body" id="navbar">
                     <ul class="navbar-nav justify-content-evenly  flex-grow-1 pe-3" id="itens-navbar">
