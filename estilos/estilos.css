@@ -1,0 +1,124 @@
+ /* Config Header */
+        
+    @media(min-width: 992px){
+        #header #header-int{
+            /*cor do background*/
+            background-color: #034F0A;
+        }
+        
+        #header img{
+            /* editando a localização da logo da agro */
+            margin-top: -15%;
+            margin-bottom: -9.5%;
+            margin-left: 20%;
+            
+        } 
+    }
+
+    @media(max-width: 991px){
+        #header #header-int{
+            /*cor do background*/
+            background-color: #034F0A;
+            height: 10%;
+        }
+        
+        #header img{
+            /* editando a localização da logo da agro */
+            margin-top: -15%;
+            margin-bottom: -9.5%;
+            margin-left: 20%;
+            
+        } 
+    }
+
+/*config navbar*/   
+
+    @media(min-width: 992px){
+
+        #header #navbar #nav{
+        /* definindo a cor e o tipo de fonte do texto dos links da navbar */
+        color: #fff;
+        font-family: arial;
+        }  
+        
+        #header #navbar a h1{
+            /* definindo o tamanho do texto dos links da navbar */
+            font-size: 1.9em;
+        }
+
+        #itens-navbar{
+            /* editando o visual dos itens da navbar  */
+            margin-right: 8%;
+            margin-left: 9%;
+            border-top: 2px solid #034F0A;
+            border-bottom: 2px solid #034F0A;
+            border-right: 2px solid #ffffff;
+            border-left: 2px solid #ffffff;
+        }
+
+        #header #navbar #nav:hover{
+            /* colocando o brilhinho quando passa o mouse em cima */
+            color: #FFF086;
+        }  
+
+
+        #header #login{
+            /*editando o visual do butão de login*/
+            font-size: 1.2em;
+            font-family: arial;
+            margin-top: 15px;
+            margin-right: 8%;
+            width: 150px;
+        }
+
+        #header #login #link {
+            /* tirando a decoração do link */
+            text-decoration: none; 
+            color:#fff;
+        }
+
+        #header #login #link:hover{
+            /* colocando o brilhinho quando passa o mouse em cima */
+            color: #FFF086;
+        } 
+
+    }
+
+    @media(max-width: 991px){
+
+        #header #navbar #nav{
+            /* definindo a cor e o tipo de fonte do texto dos links da navbar */
+            color: #222;
+            font-family: arial;
+        }  
+        
+        #header #navbar a h1{
+            /* definindo o tamanho do texto dos links da navbar */
+            font-size: 1.2em;
+        }
+        #header #offcanvasNavbarLabel{
+            color: #888;
+        }
+        #header #navbar #nav:active, #header #login #link:active{
+            /* colocando o brilhinho quando passa o mouse em cima */
+            color: #FFF086;
+        }  
+
+        #header #login{
+            /*editando o visual do butão de login*/
+            font-size: 1.2em;
+            font-family: arial;
+            margin-top: 10%;
+        }
+
+        #header #login #link {
+            /* tirando a decoração do link */
+            text-decoration: none; 
+            color: #222;
+            
+        }
+
+    }
+
+
+
