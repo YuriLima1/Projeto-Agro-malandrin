@@ -426,11 +426,78 @@ footer #linksfora #Emailfoo {
 
 
 
-
 /* config produtos */
 
 #produto {
     padding-top: 10%;
     width: 50%;
     height: 50px;
+}
+
+
+
+/* config departamento */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.menu-container {
+    position: relative;
+    width: 200px;
+    margin: 20px;
+}
+
+.menu-button {
+    background-color: #03740E;
+    color: white;
+    padding: 20px;
+    margin-top: 60%;
+    border: 2px solid #034F0A;
+    border-radius: 8px;
+    width: 110%;
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #FCDCB7;
+    color:#000;
+    border: 3px solid #F6A507;
+}
+
+.dropdown-menu {
+    display: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    position: absolute;
+    margin-top: 60%;
+    top: 40px;
+    width: 110%;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block;
+    margin-top: 75%;
 }
